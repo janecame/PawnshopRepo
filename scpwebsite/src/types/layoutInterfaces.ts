@@ -31,6 +31,27 @@ export type ModelMember = {
   classCode: string;
 };
 
+// GET /API/Web/GetCustomer/details row shape (GetCustomerList)
+export type CustomerRow = {
+  cnCode?: string;
+  controlNo: string;
+  lastName: string;
+  firstName: string;
+  middleName: string;
+  buildingNo: string;
+  street: string;
+  brgy: string;
+  city: string;
+  province: string;
+  zipCode: string;
+  birthdate: string | null;
+  contactNo: string;
+  validIDNumber: string;
+  emailAddress: string;
+  address: string;
+  active: string; // "True" | "False"
+};
+
 export type ModelAsset = {
   assetCode: string;
   assetID: string;
@@ -107,3 +128,17 @@ export type InserttblOutSlip1Payload = {
   PostedIssuance: boolean;
   ModelSubtblOutSlip2: OutslipDetailRow[];
 };
+
+// Entry domain list row shapes (shared by list pages + CustomModal)
+export type ColorRow = { colorCode: string; colorDesc: string; catCode?: string; colorDescSub?: string };
+export type KaratRow = { karatCode: string; karatDesc: string; karatDescSub?: string };
+export type MadeRow = { madeCode: string; madeDesc: string; madeDescSub?: string };
+export type ConditionRow = { conditionCode: string; conditionDesc: string; catCode?: string; conditionDescSub?: string };
+export type BirthStoneRow = { birthStoneCode: string; birthStoneDesc: string; catCode?: string; bsDescSub?: string };
+export type ItemRow = { itemCode: string; itemDesc: string; catCode?: string; itemDescSub?: string; categoryDescription?: string };
+export type DiamondShapeRow = { diamondShapeCode: string; diamondShapeDesc: string; catCode?: string; diaShapeDescSub?: string };
+export type BirthStoneColorRow = { bsColorCode: string; bsColorDesc: string; catCode?: string; bsColorDescSub?: string };
+export type TitusRow = { titusCode: string; titusDesc: string; catCode?: string; titusDescSub?: string };
+export type BrandRow = { brandCode: string; brandDesc: string; catCode?: string; brandDescSub?: string };
+export type ModelRow = { modelCode: string; modelDesc: string; catCode?: string; modelDescSub?: string };
+export type CategoryRow = { catCode: string; catDesc: string };
