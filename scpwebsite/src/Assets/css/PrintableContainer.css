@@ -1,0 +1,76 @@
+
+@media print{
+	body{
+		visibility: hidden;
+	}  
+
+	.printable-content {
+		visibility: visible;
+		position: absolute;
+		top:0;
+    left: 0;
+    right: 0; 
+		width: 100%;   
+    page-break-after: always;
+    page-break-before: always;
+	  }
+    .page-break {
+      page-break-before: always;
+    }
+
+}
+.letter-paper { 
+  width: 8.5in; /* Letter paper width */
+  height: 11in; /* Letter paper height */
+  margin: auto; /* Center the paper horizontally */
+  padding: 0.2in; /* Add padding like margins inside the paper */
+  background-color: white; /* Paper background color */
+  border: 1px solid #ccc; /* Optional border */
+  overflow-x: hidden; /* Prevent content from spilling outside */
+  font-family: Arial, sans-serif; /* Default font for paper content */
+  color: #000; /* Text color */
+}
+.letter-paper-landscape { 
+  height: 8.5in; /* Letter paper width */
+  width: 11in; /* Letter paper height */
+  margin: auto; /* Center the paper horizontally */
+  padding: 0.2in; /* Add padding like margins inside the paper */
+  background-color: white; /* Paper background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for effect */
+  border: 1px solid #ccc; /* Optional border */
+  overflow-x: hidden; /* Prevent content from spilling outside */
+  font-family: Arial, sans-serif; /* Default font for paper content */
+  color: #000; /* Text color */
+}
+.letter-paper-C1halfshort { 
+  height: 5.5in; /* Letter paper width */
+  width: 8.5in; /* Letter paper height */
+  margin: auto; /* Center the paper horizontally */
+  padding: 0.2in; /* Add padding like margins inside the paper */
+  background-color: white; /* Paper background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add subtle shadow for effect */
+  border: 1px solid #ccc; /* Optional border */
+  overflow-x: hidden; /* Prevent content from spilling outside */
+  font-family: Arial, sans-serif; /* Default font for paper content */
+  color: #000; /* Text color */
+}
+
+.double-line {
+  border: none;
+  border-bottom: 4px double black;
+}
+
+.compact-floating > .form-control {
+  padding: 0.3rem 0.5rem;
+  height: calc(1.8em + 0.6rem + 2px);
+  font-size: 0.85rem;
+}
+
+.compact-floating > label {
+  font-size: 0.75rem;
+  padding: 0 0.5rem;
+}
+
+.compact-floating {
+  margin-bottom: 0.8rem;
+}

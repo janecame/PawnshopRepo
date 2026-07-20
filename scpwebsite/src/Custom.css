@@ -1,0 +1,10 @@
+.details{
+    position: absolute;
+    top: -13px;
+    left: 35px;
+    color:black;
+    z-index:1;
+    background-color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+  }

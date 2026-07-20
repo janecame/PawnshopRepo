@@ -1,0 +1,14 @@
+# --- GLOBAL IGNORES ---
+node_modules/
+task.txt
+notes.txt
+
+# --- SCPWEBAPI ROOT CLEANUP ---
+**/.vs/
+**/bin/
+**/obj/
+**/Properties/
+**/*.csproj.user
+**/*.http
+
+

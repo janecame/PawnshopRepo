@@ -1,0 +1,12 @@
+.pullout-table-row {
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+}
+
+.pullout-table-row:hover {
+  background-color: #e6f7ff; /* Light blue on hover */
+}
+
+.pullout-table-row.selected {
+  background-color: #cce5ff; /* Darker blue when clicked/selected */
+}

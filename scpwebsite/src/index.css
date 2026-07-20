@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*Color Management*/
+
+.primary{
+  color: #3F9DF5 !important;
+}
+
+.secondary{
+  color: #3311C3 !important;
+}
+
+/* .bg-ter{
+  background-color: #3F9DF5;
+} */
+
+
+
+.bg-prim{
+  background-color: #1565C0 !important;
+  color: white !important;
+}
+
+.bg-sec{
+  background-color: #3311C3 !important;
+  color: white !important;
+}
+
+/* .bg-ter{
+  background-color: #3F9DF5;
+} */
+
+
+
+/* .bg-ter{
+  background-color: #3F9DF5;
+} */
+
+
+.border-top-prim {
+  border-top: 3px solid #3F9DF5 !important;
+}
+
+.border-top-sec {
+  border-top: 3px solid #3311C3 !important;
+}
+
+/* .border-top-ter {
+  border-top: 3px solid #3F9DF5 !important;
+} */
+
+
+/*Color Management*/
+
+/*
+0D47A1 
+1565C0
+0C3D67 
+*/
+
+#menu{
+  background-color: #0C3D67;  
+}
+
+#menu .list-group-item {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+
+#menu .list-group-item:hover {
+  background-color: #0f4c80 !important;
+  color: white;
+}
+
+#menu .list-group-item.selected {
+  background-color: #0f4c80 !important;
+  color: white;
+}
+
+
+.fa-chevron-right {
+  transition: transform 0.3s ease;
+}
+
+.fa-chevron-right.rotate {
+  transform: rotate(90deg);
+}
+
+.list-group-flush .list-group-item {
+  background-color: #f8f9fa;
+
+}
+
+small, .small {
+  font-size: 0.75em !important; 
+}
+
+.pointer {
+  cursor: pointer;
+}
+
